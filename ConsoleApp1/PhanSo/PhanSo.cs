@@ -90,6 +90,7 @@ namespace ConsoleApp1.session2
             c.tuso = a.tuso * b.mauso;
             c.mauso = a.mauso * b.tuso;
             return c.RutGon(c);
+            
         }
     }
 }

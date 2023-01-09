@@ -1,29 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1.session3
+namespace T2203E_CSharp.session3
 {
-    public class FptStudent : AbstractStudent, IHuman, IStudent
-    {
-        public FptStudent() {
-        }
+	public class FPTStudent : AbstractStudent, IHuman, IStudent
+	{
+		public FPTStudent()
+		{
+		}
 
-        public void eat()
+        public void Eat()
         {
             
         }
 
-        public override void Learn()
+        public override void Learn() 
         {
-          
+            
         }
 
         public void PlayGame()
         {
-          
+           
         }
     }
 }
+

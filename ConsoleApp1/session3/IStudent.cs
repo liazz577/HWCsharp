@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1.session3
+namespace T2203E_CSharp.session3
 {
-    public interface IStudent
-    {
-        public void PlayGame();
-    }
+	public interface IStudent
+	{
+		void PlayGame();
+	}
 }
+
